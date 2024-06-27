@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+
+  nav(class="nav")
+    div(class="nav_container")
+      ul(class="nav_list")
+        li 
+          a(class = "nav_option", href='/') Home
+  body
+    block content
+    footer(class="footer")
+        p @2024 Synoptic Project Group 47

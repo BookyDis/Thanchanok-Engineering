@@ -3,5 +3,8 @@
     "coed": "^0.4.1",
     "express": "^4.19.2",
     "npm-watch": "^0.13.0"
+  },
+  "devDependencies": {
+    "daisyui": "^4.12.10"
   }
 }

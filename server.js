@@ -6,6 +6,7 @@ var indexRouter = require('./routes/index');
 const app = express()
 // view engine setup
 app.set('view engine', 'pug');
+app.use("/public", express.static('public'));
 
 app.get("/", (req, res) => {
     res.render('index')

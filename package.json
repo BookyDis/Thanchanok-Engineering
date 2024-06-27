@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "coed": "^0.4.1"
+    "coed": "^0.4.1",
+    "express": "^4.19.2"
   }
 }

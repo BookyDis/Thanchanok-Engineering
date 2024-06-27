@@ -3,8 +3,8 @@
     "test": "{src,test}/*.js"
   },
   "scripts": {
-    "test": "tape test/*.js",
-    "watch": "nodemon ./server.js"
+    "server": "nodemon ./server.js",
+    "css" : "npx tailwindcss -o public/output.css -w"
   },
   "dependencies": {
     "coed": "^0.4.1",

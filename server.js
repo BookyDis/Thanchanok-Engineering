@@ -15,6 +15,11 @@ app.get("/", (req, res) => {
     res.render('index')
 })
 app.use('/index', indexRouter);
+app.use('/customer', customerRouter);
+app.use('/service', serviceRouter);
+app.use('/location', locationRouter);
+
+
 
 app.listen(3000)
 

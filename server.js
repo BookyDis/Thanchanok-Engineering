@@ -1,7 +1,10 @@
 const express = require('express')
 
-
+//webpage route variables
 var indexRouter = require('./routes/index');
+var customerRouter = require('./routes/customer')
+var serviceRouter = require('./routes/service')
+var locationRouter = require('./routes/location')
 
 const app = express()
 // view engine setup

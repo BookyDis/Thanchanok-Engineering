@@ -1,7 +1,10 @@
 extends layout
 
 block content  
-    head 
-        h1
+    link(rel='stylesheet', href='/public/output.css') 
+    head
+        div(class="customerIntro text-center py-6")
+            h1(class="textIntro text-4xl text-white") Where we are based at
     body
-        p Test
+        section(class="imgSection bg-white text-black flex flex-wrap justify-center")
+            img(src="/public/image/map.png")

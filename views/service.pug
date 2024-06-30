@@ -1,7 +1,21 @@
 extends layout
 
 block content  
-    head 
-        h1
+    header 
+        div(class="customerIntro text-center py-6")
+            h1(class="textIntro text-4xl text-white") Here are some of the services that we provided
     body
-        p Test
+        div(class="carousel w-full")    
+            div(id="slide1" class="carousel-item relative w-full")
+                img(class="w-full" src="public/image/vey1.jpg")
+                div(class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between")
+                    a(href="#slide1" class="btn btn-circle") ❮
+                    a(href="#slide2" class="btn btn-circle") ❯
+            div(id="slide2" class="carousel-item relative w-full")
+                img(class="w-full" src="public/image/vey2.jpg")
+                div(class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between")
+                    a(href="#slide1" class="btn btn-circle") ❮
+                    a(href="#slide" class="btn btn-circle") ❯
+
+                
+            

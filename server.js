@@ -19,8 +19,6 @@ app.use('/customer', customerRouter);
 app.use('/service', serviceRouter);
 app.use('/location', locationRouter);
 
-
-
 app.listen(3000)
 
 module.exports = app;

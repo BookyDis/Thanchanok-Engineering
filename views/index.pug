@@ -1,15 +1,20 @@
 extends layout
 
-block content         
+block content     
+    body    
         div(class = "hero min-h-screen" style="background-image: url(/public/image/car.jpg)") 
             div(class="hero-overlay bg-opacity-60")
             div(class="hero-content text-neutral-content text-center")
                 div(class="max-w-md")
                     p(class="text-white text-2xl  bg-opacity-50 p-4 rounded font-bold") BEST OF THE BEST
                     br
-                    p(class="text-white text-2xl  bg-opacity-50 p-4 rounded font-bold") Providing you with one of the best engineering services 
+                    p(class="text-white text-2xl  bg-opacity-50 p-4 rounded font-bold") Providing you with one of the best engineering services             
         div(class="infoText text-center bg-white text-black py-6")
             h6(class="welcomeText text-4xl underline-offset-2") Welcome
             br
-            p Thanchanok Engineering was founded in Thailand in 2004, we are dedicated to developing the most efficient and durable machineries
-            p We bring you one the best service in Thailand 
+            p Thanchanok Engineering was founded to support various aspect of the engineering industry including: the manufacturing and engineering industy     
+            p machinery technology, assembly line automaton, main control program, data collection and data displaying program, 
+        div(class="customerIntro text-center py-6")
+            h1(class="textIntro text-4xl text-white") Here is the list of customers that we have worked with 
+        section(class="imgSection bg-white text-black flex flex-wrap justify-center")
+            img(src="/public/image/customer.png")    

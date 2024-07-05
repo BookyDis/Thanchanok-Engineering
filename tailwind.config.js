@@ -4,7 +4,11 @@ module.exports = {
     "./views/**/*.pug"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'myred' : '#cc1730',
+      },
+    },
   },
   plugins: [
     require('daisyui'),

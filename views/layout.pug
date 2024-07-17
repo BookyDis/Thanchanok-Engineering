@@ -3,18 +3,18 @@ html
   head 
     link(rel='stylesheet', href='/public/output.css') 
   header(class="bg-black z-100 grid grid-rows-[auto_1fr_auto] h-screen")
-    nav(class="navbar bg-base-200 fixed top-0 left-0 right-0 bg-black z-[125] ")
+    nav(class="navbar bg-base-200 fixed top-0 left-0 right-0 bg-myred z-[125] ")
       div(class="nav_container")
-        ul(class="nav_list text-black flex items-center text-white") 
+        ul(class="nav_list text-red flex items-center") 
           li 
             a(href='/')
               img(src="/public/image/logo.jpg" class="h-8 mr-2") 
           li
-            a(class="btn btn-ghost text-xl", href='/') Home
+            a(class="btn btn-ghost text-white text-xl ", href='/') Home
           li
-            a(class="btn btn-ghost text-xl", href='/service') Services
+            a(class="btn btn-ghost text-white text-xl", href='/service') Services
           li
-            a(class="btn btn-ghost text-xl", href='/location') Location
+            a(class="btn btn-ghost text-white text-xl", href='/location') Location
     block content
 
     footer(class="footer bg-base-200 text-base-content p-10")

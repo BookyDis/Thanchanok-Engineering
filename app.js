@@ -5,6 +5,8 @@ var indexRouter = require('./routes/index');
 var serviceRouter = require('./routes/service')
 var locationRouter = require('./routes/location')
 
+
+
 const app = express()
 // view engine setup
 app.set('view engine', 'pug');

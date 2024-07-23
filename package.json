@@ -3,8 +3,10 @@
     "test": "{src,test}/*.js"
   },
   "scripts": {
-    "server": "nodemon ./server.js",
-    "css" : "npx tailwindcss -o public/output.css -w"
+    "app": "nodemon ./app.js",
+    "css" : "npx tailwindcss -o public/output.css -w",
+    "build:pug" : "pug src -o dist",
+    "build:daisy" : "tailwindcss -i ./src/styles.css -o ./dist/styles.css --minify"
   },
   "dependencies": {
     "coed": "^0.4.1",

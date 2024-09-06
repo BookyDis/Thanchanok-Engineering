@@ -4,9 +4,9 @@
   },
   "scripts": {
     "app": "nodemon ./app.js",
-    "css" : "npx tailwindcss -o public/output.css -w",
-    "build:pug" : "pug src -o dist",
-    "build:daisy" : "tailwindcss -i ./src/styles.css -o ./dist/styles.css --minify"
+    "css": "npx tailwindcss -o public/output.css -w",
+    "build:pug": "pug src -o dist",
+    "build:daisy": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --minify"
   },
   "dependencies": {
     "coed": "^0.4.1",
@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "daisyui": "^4.12.10",
+    "pug-cli": "^1.0.0-alpha6",
     "tailwindcss": "^3.4.4"
   }
 }

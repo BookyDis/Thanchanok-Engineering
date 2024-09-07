@@ -6,7 +6,8 @@
     "app": "nodemon app.js",
     "css": "npx tailwindcss -o public/output.css -w",
     "build:pug": "pug src -o dist",
-    "build:daisy": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --minify"
+    "build:daisy": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --minify",
+    "watch:daisy": "tailwindcss -i public/output.css -o ./dist/styles.css --watch"
   },
   "dependencies": {
     "coed": "^0.4.1",

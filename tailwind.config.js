@@ -5,6 +5,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      width: {
+        '500' : '500px',
+        '300' : '300px',
+      },
+      heigh: {
+        '500' : '500px',
+        '300' : '300px',
+      },
       colors: {
         'myred' : '#cc1730',
       },

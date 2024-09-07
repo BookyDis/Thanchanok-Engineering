@@ -1,0 +1,31 @@
+extends layout
+
+block content 
+    body
+    div(class = "hero min-h-screen" style="background-image: url(/public/image/fabrication/f1.png)") 
+            div(class="hero-overlay bg-opacity-60")
+            div(class="hero-content text-neutral-content text-center")
+                div(class="max-w-md")
+                    p(class="text-white text-6xl  bg-opacity-50 p-4 rounded font-bold") Fabrication
+    div(class="customerIntro text-center bg-myred py-8 mb-12 ")
+        h1(class="textIntro text-4xl text-white") Lists
+    div(class="card card-side bg-base-100 w-100 h-100 shadow-xl p-2 items-center mx-auto ")
+        div(class="carousel w-500 h-500 mx-auto relative" loading = "lazy")
+            div(id="mh1" class="carousel-item relative w-full")
+                img(class="w-full" src="public/image/fabrication/f2.jpg")
+            div(id="mh2" class="carousel-item relative w-full")
+                img(class="w-full" src="public/image/fabrication/f3.png")
+            div(id="mh3" class="carousel-item relative w-full")
+                img(class="w-full" src="public/image/fabrication/f4.jpg")  
+            div(id="mh4" class="carousel-item relative w-full")
+                img(class="w-full" src="public/image/fabrication/f5.jpg")  
+            div(id="mh5" class="carousel-item relative w-full")
+                img(class="w-full" src="public/image/fabrication/f6.jpg") 
+        div(class="card-body")
+            h2(class="card-title text-white ") Parts
+            div(class="flex w-full justify-center gap-2 py-2")
+                a(href="#mh1" class="btn btn-xs") 1
+                a(href="#mh2" class="btn btn-xs") 2
+                a(href="#mh3" class="btn btn-xs") 3
+                a(href="#mh4" class="btn btn-xs") 4
+                a(href="#mh5" class="btn btn-xs") 5    

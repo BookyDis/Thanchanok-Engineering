@@ -882,7 +882,7 @@ html {
 .carousel {
   display: inline-flex;
   overflow-x: scroll;
-  scroll-snap-type: x mandatory;
+  scroll-snap-type: none;
   scroll-behavior: smooth;
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -892,19 +892,19 @@ html {
   box-sizing: content-box;
   display: flex;
   flex: none;
-  scroll-snap-align: start;
+  scroll-snap-align: none;
 }
 
 .carousel-start .carousel-item {
-  scroll-snap-align: start;
+  scroll-snap-align: none;
 }
 
 .carousel-center .carousel-item {
-  scroll-snap-align: center;
+  scroll-snap-align: none;
 }
 
 .carousel-end .carousel-item {
-  scroll-snap-align: end;
+  scroll-snap-align: none;
 }
 
 @media (hover: hover) {
@@ -1452,6 +1452,14 @@ html {
   min-height: 100vh;
 }
 
+.w-300 {
+  width: 300px;
+}
+
+.w-500 {
+  width: 500px;
+}
+
 .w-80 {
   width: 20rem;
 }
@@ -1528,6 +1536,10 @@ html {
 
 .p-10 {
   padding: 2.5rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .p-4 {

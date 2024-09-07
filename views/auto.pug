@@ -1,0 +1,31 @@
+extends layout
+
+block content 
+    body
+    div(class = "hero min-h-screen" style="background-image: url(/public/image/auto/vey1.jpg)") 
+            div(class="hero-overlay bg-opacity-60")
+            div(class="hero-content text-neutral-content text-center")
+                div(class="max-w-md")
+                    p(class="text-white text-6xl  bg-opacity-50 p-4 rounded font-bold") Automation system
+    div(class="customerIntro text-center bg-myred py-8 mb-12 ")
+        h1(class="textIntro text-4xl text-white") Lists
+    div(class="card card-side bg-base-100 w-100 h-100 shadow-xl p-2 items-center mx-auto ")
+        div(class="carousel w-500 h-500 mx-auto relative" loading = "lazy")
+            div(id="auto1" class="carousel-item relative w-full")
+                img(class="w-full" src="public/image/auto/vey1.jpg")
+            div(id="auto2" class="carousel-item relative w-full")
+                img(class="w-full" src="public/image/auto/vey2.jpg")
+            div(id="auto3" class="carousel-item relative w-full")
+                img(class="w-full" src="public/image/auto/vey3.jpg")  
+            div(id="auto4" class="carousel-item relative w-full")
+                img(class="w-full" src="public/image/auto/vey4.jpg")  
+            div(id="auto5" class="carousel-item relative w-full")
+                img(class="w-full" src="public/image/auto/vey5.jpg") 
+        div(class="card-body")
+            h2(class="card-title text-white ") Product Conveyer Installation
+            div(class="flex w-full justify-center gap-2 py-2")
+                a(href="#auto1" class="btn btn-xs") 1
+                a(href="#auto2" class="btn btn-xs") 2
+                a(href="#auto3" class="btn btn-xs") 3
+                a(href="#auto4" class="btn btn-xs") 4
+                a(href="#auto5" class="btn btn-xs") 5          
